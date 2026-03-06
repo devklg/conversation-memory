@@ -1,0 +1,18 @@
+{
+  "name": "@devklg/conversation-memory",
+  "version": "1.0.0",
+  "description": "AI Conversation Memory MCP Server - Auto-persist conversations to Perry/Neo4j via Universal Gateway",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["mcp", "conversation", "memory", "neo4j", "perry", "universal-gateway"],
+  "author": "Kevin L. Gardner",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9"
+  }
+}
